@@ -1,0 +1,6 @@
+{
+  "tags": ["scholars"],
+  "layout": "layouts/base.njk",
+  "permalink": "/scholars/{{ page.fileSlug }}/",
+  "nav": false
+}

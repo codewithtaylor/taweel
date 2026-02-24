@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ title }}</title>
+
+  <!-- Ibarra Real Nova -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <!-- Arabic font: Amiri -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Site styles -->
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Islamic Knowledge Library</h1>
+<nav>
+  <a href="/">Home</a>
+  <a href="/scholars/">Scholars</a>
+  <a href="/works/">Works</a>
+  <a href="/sciences/">Sciences</a>
+  <a href="/methodology/">Methodology</a>
+  <a href="/about/">About</a>
+</nav>
+
+  </header>
+
+  <main>
+    {{ content | safe }}
+  </main>
+
+  <footer>
+    <p>© {{ collections.all | length }} entries</p>
+  </footer>
+</body>
+</html>

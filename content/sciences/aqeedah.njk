@@ -1,0 +1,14 @@
+---
+layout: layouts/base.njk
+title: Aqeedah
+science: aqeedah
+permalink: /sciences/aqeedah/
+---
+
+<ul>
+{% for w in collections.works %}
+  {% if w.data.sciences and (science in w.data.sciences) %}
+    <li><a href="{{ w.url }}">{{ w.data.title }}</a></li>
+  {% endif %}
+{% endfor %}
+</ul>
