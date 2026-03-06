@@ -41,7 +41,7 @@ footer {
 
 /* === Header & Nav === */
 header h1 {
-    font-size: 1.3rem;
+    font-size: 2.0rem;
     font-weight: 500;
     letter-spacing: 0.01em;
     color: #c9a96e;
@@ -57,7 +57,7 @@ nav {
 nav a {
     text-decoration: none;
     color: #888;
-    font-size: 0.95rem;
+    font-size: 1.3rem;
     letter-spacing: 0.02em;
     transition: color 0.15s;
 }
@@ -96,7 +96,21 @@ hr {
 }
 
 /* === Lists === */
-ul, ol {
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    padding-left: 1.5rem;
+    text-indent: -1.5rem;
+}
+
+ul li::before {
+    content: "- ";
+}
+
+ol {
     padding-left: 1.5rem;
 }
 
@@ -104,9 +118,70 @@ li {
     margin-bottom: 0.35rem;
 }
 
+/* === Search === */
+.search-container {
+    margin-top: 2rem;
+}
+
+#search-input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #2a2a2a;
+    border-radius: 0;
+    color: #e2ddd5;
+    font-family: inherit;
+    font-size: 1.1rem;
+    padding: 0.4rem 0;
+    outline: none;
+    transition: border-color 0.15s;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+#search-input:focus {
+    border-bottom-color: #c9a96e;
+}
+
+#search-input::placeholder {
+    color: #555;
+}
+
+.search-results {
+    margin-top: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+a.search-result {
+    display: block;
+    padding: 0.3rem 0;
+    color: #e2ddd5;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+a.search-result:hover {
+    color: #c9a96e;
+    text-decoration: none;
+}
+
+p.search-result {
+    color: #555;
+    margin: 0;
+}
+
+.result-type {
+    font-size: 0.75rem;
+    color: #555;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-right: 0.6rem;
+}
+
 /* === Arabic text === */
 .arabic {
-    font-family: "Amiri", serif;
+    font-family: "Scheherazade New", serif;
     direction: rtl;
     unicode-bidi: isolate;
     font-size: 1.25em;
