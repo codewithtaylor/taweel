@@ -41,11 +41,13 @@ footer {
 
 /* === Header & Nav === */
 header h1 {
-    font-size: 2.0rem;
-    font-weight: 500;
-    letter-spacing: 0.01em;
-    color: #c9a96e;
     margin: 0 0 0.75rem;
+}
+
+.site-banner {
+    height: 80px;
+    width: auto;
+    display: block;
 }
 
 nav {
@@ -200,8 +202,8 @@ p.search-result {
         margin-bottom: 2.5rem;
     }
 
-    header h1 {
-        font-size: 1.6rem;
+    .site-banner {
+        height: 55px;
     }
 
     nav {
