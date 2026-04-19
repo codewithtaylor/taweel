@@ -15,7 +15,7 @@ module.exports = function (eleventyConfig) {
   );
 
   eleventyConfig.addCollection("fatawa", (api) =>
-  api.getFilteredByGlob("content/fatawa/*.md").filter(i => i.fileSlug !== "index")
+  api.getFilteredByGlob("content/fatawa/*.md").filter(i => !i.inputPath.endsWith("/index.md"))
   );
 
   // Sciences (the science pages themselves)
