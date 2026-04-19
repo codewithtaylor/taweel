@@ -8,7 +8,7 @@ permalink: /fatawa/ibn-abbas-repentance-murderer/
 
 # Ibn Abbas's View Regarding the Repentance of a Murderer
 
-At the end, a question was raised about the position of Ibn Abbas (may Allah be pleased with him) on the issue of the murderer and whether he has no repentance — and some groups have understood from this that Ibn Abbas considered the murderer to be a disbeliever (*kafir*). This is a mistake, and it is one of the scholarly errors that many scholars and jurists have repeated. Ibn Abbas (may Allah be pleased with him) did not say that, and not a single word has been authentically attributed to him to the effect that he declared the murderer a disbeliever.
+The brother is asking about the position of Ibn Abbas (may Allah be pleased with him) on the issue of the murderer and whether he has no repentance — and some groups have understood from this that Ibn Abbas considered the murderer to be a disbeliever (*kafir*). This is a mistake, and it is one of the scholarly errors that many scholars and jurists have repeated. Ibn Abbas (may Allah be pleased with him) did not say that, and not a single word has been authentically attributed to him to the effect that he declared the murderer a disbeliever.
 
 What is authentically reported from Ibn Abbas is that he said: "He has no repentance." There is a difference between the two issues, and a difference between the two statements. Ibn Abbas is saying that the victim must receive his due right, and that if the murderer repents, the right of the victim's heir must still be fulfilled. That is the position (*madhhab*) of Ibn Abbas (may Allah be pleased with him). Even so, there is a second narration from him that aligns with the view of the majority.
 
