@@ -36,4 +36,4 @@ Even if the obligation of wudu for touching the Quran were only established from
 
 As for the Prophet's ﷺ letter in the document of 'Amr ibn Hazm — "None shall touch the Quran except one who is pure (*tahir*)" — this report is known. Even if the document itself is authentic, 'Umar judged by it, as narrated by 'Abd al-Razzaq from Ma'mar from al-Zuhri from Sa'id al-Musayyab from 'Umar; and it is also established from al-Zuhri with a sound chain. The apparent meaning of *tahir* here is "Muslim," because the letter was sent to the people of Najran who were Christians. The Prophet ﷺ was addressing Christians and establishing foundational principles for them — why would he address Christians about touching the Quran while in a state of wudu? It is clear that the intended meaning is "Muslim," evidenced further by the Prophet's ﷺ statement: *"Glory be to Allah, the believer is never impure."*
 
-## Source: The 40th Open Session of Sheikh Sulayman al-'Ulwan
+## Source: The 40th Open Session of Sheikh Sulayman al-'Alwan
