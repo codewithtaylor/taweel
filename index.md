@@ -1,6 +1,6 @@
 ---
 layout: layouts/base.njk
-title: Ta'weel
+title: Shaykh Sulayman al-Alwan
 ---
 
 A dedicated archive of the works, fatawa, and lectures of Shaykh Sulayman ibn Nasir al-Alwan.
