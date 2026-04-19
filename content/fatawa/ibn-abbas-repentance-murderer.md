@@ -14,4 +14,4 @@ In al-Bukhari's *Al-Adab al-Mufrad* with a sound chain, it is narrated that a ma
 
 So Ibn Abbas did not hold that the murderer was a *kafir*. Secondly, he held that there was expiation for it — namely, righteous treatment of one's mother. The difference between Ibn Abbas and the majority is that the majority hold that the murderer has a valid repentance, while he held that he does not — but nothing is attributed to him declaring the murderer a disbeliever. There is a difference between the two statements. To say that Ibn Abbas declared the murderer a *kafir* is incorrect and inaccurate, and nothing of the sort has been attributed to him.
 
-## Source: The 40th Open Session of Sheikh Sulayman al-'Ulwan
+## Source: The 40th Open Session of Sheikh Sulayman al-'Alwan
