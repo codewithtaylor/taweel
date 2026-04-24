@@ -6,7 +6,7 @@ permalink: /fatawa/hadith-al-bara-torment-grave-ruling-al-ladd/
 
 # The Hadith of al-Bara' on the Torment of the Grave, and the Ruling on al-Ladd
 
-The questioner asks about the long hadith of al-Bara' on the torment of the grave — this was narrated by the compilers of the *Sunan*. And it is a good (*jayyid*) hadith. It is adduced as evidence. More than one among the scholars of the classical period deemed it to be sound.
+The questioner asks about the long hadith of al-Bara' on the torment of the grave — this was narrated by the compilers of the *Sunan* and it is a good (*jayyid*) hadith. It is adduced as evidence. More than one among the scholars of the classical period deemed it to be sound.
 
 As for the second issue, the questioner asks about (*ath-thaghaf*) — and what is meant by it? And what is its intended meaning? The hadith [of al-Bara'] is well-known and is among the hadiths whose authenticity is agreed upon. The most accurate thing said about that is that it refers to introducing something into the nose — meaning it may cause a person some obstruction of breathing or the like.
 
