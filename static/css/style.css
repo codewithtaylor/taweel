@@ -6,11 +6,13 @@
 body {
     font-family: "EB Garamond", serif;
     font-size: 1.25rem;
-    line-height: 1.2;
+    line-height: 1.65;
     color: #e2ddd5;
     background: #111;
     margin: 0;
     padding: 0;
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga" 1, "kern" 1;
 }
 
 /* === Layout === */
@@ -39,6 +41,18 @@ footer {
     font-size: 0.9rem;
 }
 
+/* === Scroll progress bar === */
+#progress-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    width: 0%;
+    background: #bfa76e;
+    z-index: 100;
+    transition: width 0.1s linear;
+}
+
 /* === Header & Nav === */
 header h1 {
     margin: 0 0 0.75rem;
@@ -64,7 +78,8 @@ nav a {
     transition: color 0.15s;
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
     color: #e2ddd5;
 }
 
@@ -89,7 +104,7 @@ a:hover {
     text-underline-offset: 3px;
 }
 
-p { margin: 0 0 1rem; }
+p { margin: 0 0 1.25rem; }
 
 hr {
     border: none;
@@ -118,6 +133,33 @@ ol {
 
 li {
     margin-bottom: 0.35rem;
+}
+
+/* === Entry listing (fatawa, works, etc.) === */
+.entry-list {
+    margin-top: 1.5rem;
+}
+
+.entry-list li {
+    padding-left: 0;
+    text-indent: 0;
+    border-bottom: 1px solid #1e1e1e;
+    padding: 0.6rem 0;
+    margin-bottom: 0;
+}
+
+.entry-list li::before {
+    content: none;
+}
+
+.entry-list li a {
+    color: #e2ddd5;
+    display: block;
+}
+
+.entry-list li a:hover {
+    color: #bfa76e;
+    text-decoration: none;
 }
 
 /* === Search === */
@@ -185,7 +227,6 @@ p.search-result {
 @media (max-width: 600px) {
     body {
         font-size: 1.05rem;
-        line-height: 1.5;
     }
 
     header, main, footer {

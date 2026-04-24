@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{{ title or "Shaykh Sulayman al-Alwan" }}</title>
+  <title>{% if title %}{{ title }} | Taweel{% else %}Taweel{% endif %}</title>
+  <meta name="description" content="{{ description or 'A curated archive of scholarly works, fatawa, and translations from Shaykh Sulayman al-Alwan.' }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
@@ -11,6 +12,7 @@
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
+  <div id="progress-bar"></div>
   <header>
     <h1><a href="/" style="display: inline-block;"><img src="/static/img/banner.png" alt="سليمان ناصر العلوان" class="site-banner"></a></h1>
     <nav>
@@ -27,7 +29,26 @@
   </main>
 
   <footer>
-    <p>© {{ collections.all | length }} entries</p>
+    <p>Taweel &mdash; {{ collections.all | length }} entries</p>
   </footer>
+
+  <script>
+    // Active nav highlight
+    document.querySelectorAll('nav a').forEach(function(link) {
+      var path = window.location.pathname;
+      if (link.getAttribute('href') === '/' ? path === '/' : path.startsWith(link.getAttribute('href'))) {
+        link.classList.add('active');
+      }
+    });
+
+    // Scroll progress bar
+    var bar = document.getElementById('progress-bar');
+    function updateProgress() {
+      var total = document.documentElement.scrollHeight - window.innerHeight;
+      bar.style.width = total > 0 ? (window.scrollY / total * 100) + '%' : '0%';
+    }
+    window.addEventListener('scroll', updateProgress, { passive: true });
+    updateProgress();
+  </script>
 </body>
 </html>

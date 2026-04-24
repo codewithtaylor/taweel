@@ -5,7 +5,7 @@ science: fiqh
 permalink: /sciences/fiqh/
 ---
 
-<ul>
+<ul class="entry-list">
 {% for w in collections.works %}
   {% if w.data.sciences and (science in w.data.sciences) %}
     <li><a href="{{ w.url }}">{{ w.data.title }}</a></li>

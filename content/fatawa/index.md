@@ -7,7 +7,7 @@ nav: true
 
 # Fatawa
 
-<ul>
+<ul class="entry-list">
 {% for s in collections.fatawa | reverse %}
   <li><a href="{{ s.url }}">{{ s.data.title }}</a></li>
 {% endfor %}
