@@ -14,4 +14,4 @@ The brother asks: when is sleep a valid excuse for missing prayer? This can be d
 
 **The third case:** that he goes to sleep early and takes the appropriate precautionary steps, but then wakes up for prayer, is negligent, and goes back to sleep — saying "I'll get up now" — then sleeps again after having been roused and his reason returned to him, but he keeps going back and forth, sleeping again, saying "I'll wake up now," and so on, procrastinating. Such a person has no excuse, because he did wake up and the obligation to respond to Allah's call was upon him. He has no excuse in this type because he woke up and understood the intended meaning and knew what was required, so the obligation of rising for prayer was upon him. Such a person is not excused by his sleep.
 
-## Source: The 40th Open Session of Sheikh Sulayman al-'Alwan
+## Source: The 40th Open Session of Shaykh Sulayman al-'Alwan

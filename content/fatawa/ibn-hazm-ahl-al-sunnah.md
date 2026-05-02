@@ -12,4 +12,4 @@ Regarding what is attributed to Ibn Hazm — that he, in certain chapters, contr
 
 There are things, yes, but in al-asma' wal-sifat it is most prominent — in the chapters on the Names and Attributes of Allah (*al-asma' wal-sifat*), he contradicts Ahl al-Sunnah wal-Jama'ah.
 
-## Source: The 40th Open Session of Sheikh Sulayman al-'Alwan
+## Source: The 40th Open Session of Shaykh Sulayman al-'Alwan

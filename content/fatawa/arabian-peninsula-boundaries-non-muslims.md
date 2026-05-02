@@ -14,4 +14,4 @@ And a group of scholars held that 'Umar (may Allah be pleased with him) [expelle
 
 Therefore, the view of the majority — which Hafiz Ibn Hajar chose in *Al-Fath* — is that the Arabian Peninsula is Makkah, Madinah, and what surrounds them. And the matter is one of [genuine] scholarly disagreement, because some scholars [treat it] as a geographical demarcation — and it is clear what the boundaries of the Arabian Peninsula are geographically: everything within the Arabian Gulf and the Red Sea — all of it constitutes the Arabian Peninsula — geographically. But the difficulty lies only in the action of 'Umar (may Allah be pleased with him): why did he expel them to Tayma', if this [place] is the Arabian Peninsula?
 
-## Source: The 40th Open Session of Sheikh Sulayman al-'Alwan
+## Source: The 40th Open Session of Shaykh Sulayman al-'Alwan
