@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "When Does Sleep Constitute a Valid Excuse for Missing Prayer?"
 permalink: /fatawa/sleep-valid-excuse-missing-prayer/
 ---

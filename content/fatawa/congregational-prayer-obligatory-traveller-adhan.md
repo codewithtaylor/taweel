@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "Is Congregational Prayer in a Mosque Obligatory for a Traveller Who Hears the Adhan?"
 permalink: /fatawa/congregational-prayer-obligatory-traveller-adhan/
 ---

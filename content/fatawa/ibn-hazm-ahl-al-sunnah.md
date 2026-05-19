@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "Did Ibn Hazm Oppose Ahl al-Sunnah?"
 permalink: /fatawa/ibn-hazm-ahl-al-sunnah/
 ---

@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "The Boundaries of the Arabian Peninsula and the Status of Non-Muslims Within It"
 permalink: /fatawa/arabian-peninsula-boundaries-non-muslims/
 ---

@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "Ibn Abbas's View Regarding the Repentance of a Murderer"
 permalink: /fatawa/ibn-abbas-repentance-murderer/
 ---

@@ -1,5 +1,4 @@
 ---
-layout: layouts/base.njk
 title: "Taking Payment for Teaching the Quran"
 permalink: /fatawa/taking-payment-teaching-quran/
 ---
