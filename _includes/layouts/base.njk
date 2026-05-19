@@ -25,7 +25,7 @@
   <header>
     <div class="header-left">
       <a href="/"><img src="/static/img/banner.png" alt="سليمان ناصر العلوان" class="site-banner"></a>
-      <nav>
+      <nav id="main-nav">
         <a href="/">Home</a>
         <a href="/biography/">Biography</a>
         <a href="/fatawa/">Fatawa</a>
@@ -35,8 +35,18 @@
     </div>
     <div class="header-right">
       <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><line x1="2" y1="4" x2="14" y2="4"/><line x1="2" y1="8" x2="14" y2="8"/><line x1="2" y1="12" x2="14" y2="12"/></svg>
+      </button>
     </div>
   </header>
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <a href="/">Home</a>
+    <a href="/biography/">Biography</a>
+    <a href="/fatawa/">Fatawa</a>
+    <a href="/sciences/">Sciences</a>
+    <a href="/about/">About</a>
+  </div>
 
   <main>
     {{ content | safe }}
@@ -84,6 +94,28 @@
     });
 
     applyThemeIcon();
+
+    // Mobile menu toggle
+    var menuBtn = document.getElementById('menu-toggle');
+    var mobileMenu = document.getElementById('mobile-menu');
+    menuBtn.addEventListener('click', function() {
+      var open = mobileMenu.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open);
+    });
+    document.addEventListener('click', function(e) {
+      if (!mobileMenu.contains(e.target) && !menuBtn.contains(e.target)) {
+        mobileMenu.classList.remove('open');
+        menuBtn.setAttribute('aria-expanded', 'false');
+      }
+    });
+
+    // Active nav highlight (mobile menu too)
+    document.querySelectorAll('.mobile-menu a').forEach(function(link) {
+      var path = window.location.pathname;
+      if (link.getAttribute('href') === '/' ? path === '/' : path.startsWith(link.getAttribute('href'))) {
+        link.classList.add('active');
+      }
+    });
   </script>
 </body>
 </html>
