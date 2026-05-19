@@ -5,23 +5,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }} | Shaykh Sulayman al-Alwan{% else %}Shaykh Sulayman al-Alwan{% endif %}</title>
   <meta name="description" content="{{ description or 'A curated archive of scholarly works, fatawa, and translations from Shaykh Sulayman al-Alwan.' }}">
+  <script>
+    (function() {
+      var saved = localStorage.getItem('alwan_theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (saved === 'dark' || (!saved && prefersDark)) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/css/style.css">
 </head>
 <body>
   <div id="progress-bar"></div>
   <header>
-    <h1><a href="/" style="display: inline-block;"><img src="/static/img/banner.png" alt="سليمان ناصر العلوان" class="site-banner"></a></h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/biography/">Biography</a>
-      <a href="/fatawa/">Fatawa</a>
-      <a href="/sciences/">Sciences</a>
-      <a href="/about/">About</a>
-    </nav>
+    <div class="header-left">
+      <a href="/"><img src="/static/img/banner.png" alt="سليمان ناصر العلوان" class="site-banner"></a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/biography/">Biography</a>
+        <a href="/fatawa/">Fatawa</a>
+        <a href="/sciences/">Sciences</a>
+        <a href="/about/">About</a>
+      </nav>
+    </div>
+    <div class="header-right">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode"></button>
+    </div>
   </header>
 
   <main>
@@ -49,6 +63,27 @@
     }
     window.addEventListener('scroll', updateProgress, { passive: true });
     updateProgress();
+
+    // Theme toggle
+    var moonSVG = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13.5 9.5A6 6 0 0 1 6.5 2.5a6 6 0 1 0 7 7z"/></svg>';
+    var sunSVG  = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="8" cy="8" r="3"/><path d="M8 1v2M8 13v2M1 8h2M13 8h2M3.22 3.22l1.42 1.42M11.36 11.36l1.42 1.42M3.22 12.78l1.42-1.42M11.36 4.64l1.42-1.42"/></svg>';
+
+    var toggleBtn = document.getElementById('theme-toggle');
+
+    function applyThemeIcon() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      toggleBtn.innerHTML = dark ? sunSVG : moonSVG;
+    }
+
+    toggleBtn.addEventListener('click', function() {
+      var dark = document.documentElement.getAttribute('data-theme') === 'dark';
+      var next = dark ? 'light' : 'dark';
+      document.documentElement.setAttribute('data-theme', next);
+      localStorage.setItem('alwan_theme', next);
+      applyThemeIcon();
+    });
+
+    applyThemeIcon();
   </script>
 </body>
 </html>
